@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    background-attachment: fixed;
+    background-image: url("img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: royalblue;
+    padding: 5px;
+}
+header h1{
+
+    font-family: "Comic Sans MS", sans-serif;
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+}
+header h3{
+    color: white;
+    margin-left: 30px;
+}
+header h3 span{
+    color: gold;
+    padding-left: 5px;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 15px;
+    position: sticky;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 80px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+nav a:hover{
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0,0,657,.5);
+    color: white;
+}
+aside{
+    float: left;
+    background: linear-gradient(45deg,whitesmoke,royalblue);
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+    height: 146.4cm;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    margin: 15px;
+    padding: 20px;
+    color: darkorange;
+    font-size: 18px;
+    text-shadow: 0 0 5px gray;
+}
+aside a:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+    color: black;
+}
+section{
+    margin-left: 253px;
+}
+section article{
+
+    padding: 15px;
+
+
+}
+section article h2{
+    margin-left: 15px;
+    text-shadow: 0 0 10px white;
+    font-size: 50px;
+    padding: 15px;
+    background: rgba(0,0,450,0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    font-family: Arial, sans-serif;
+}
+footer{
+    background: linear-gradient(45deg,whitesmoke,blue,whitesmoke);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+table{
+    padding: 20px;
+    text-align: center;
+}
+td{
+    padding: 30px;
+
+}
+td img{
+    border-image-width: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+}
+tr{
+    text-align: center;
+}
+article p{
+    background: rgba(0,0,0,0.2);
+    padding: 15px;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+}
+td img:hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: gray;
+    border-radius: 15px;
+}
